@@ -17,5 +17,8 @@ In this sample though it's not demonstrated cause the tickable doesn't have any 
 
 The engine application will call `Begin()` before a first tick and `End()` after a last tick. It will call `Tick()` every tick.
 
+The order of begin and tick executions among all added tickables is controlled via `PonyEngine::Application::TickableOrder` that's passed on adding a tickable.
+The order of end is always the opposite to the oder of begin. If the corresponding order is `std::nullopt`, its function won't be called.
+
 A module may add and remove tickables only during start-up and shut-down phases via `PonyEngine::Application::IModuleContext` 
 that's passed to the corresponding module interface functions.

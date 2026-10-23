@@ -58,6 +58,8 @@ But because CMake doesn't allow to mix builds for two different target platforms
 All the engine modules that are supported by a target platform are turned on and built but sample targets have dependecies only on those engine modules that they actually use.
 
 Main CMakeLists automatically adds a target of a selected sample. That's why they all have the target name `Sample`.
+One of the most important parts is [EngineModulePostConfiguration](CMake/EngineModulePostConfiguration.cmake). 
+It applies flags to built targets, creates DLL groups if requested and links the built modules to the application.
 
 ## Samples
 
