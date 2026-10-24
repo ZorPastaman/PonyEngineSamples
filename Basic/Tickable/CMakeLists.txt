@@ -28,5 +28,4 @@ target_link_libraries(Sample PUBLIC
 )
 target_link_libraries(Sample PRIVATE
 	PonyEngine.Core
-	PonyEngine.Log
 )

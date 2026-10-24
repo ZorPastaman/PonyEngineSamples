@@ -342,6 +342,38 @@
 			"name": "Tickable-Win-Con-MSVC-Shi",
 			"displayName": "Tickable: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Tickable" ]
+		},
+		{
+			"name": "Interface",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "Basic/Interface"
+			}
+		},
+		{
+			"name": "Interface-Win-Con-MSVC-Deb",
+			"displayName": "Interface: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "Interface" ]
+		},
+		{
+			"name": "Interface-Win-Con-MSVC-Dev",
+			"displayName": "Interface: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "Interface" ]
+		},
+		{
+			"name": "Interface-Win-Con-MSVC-Opt",
+			"displayName": "Interface: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "Interface" ]
+		},
+		{
+			"name": "Interface-Win-Con-MSVC-Rel",
+			"displayName": "Interface: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "Interface" ]
+		},
+		{
+			"name": "Interface-Win-Con-MSVC-Shi",
+			"displayName": "Interface: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "Interface" ]
 		}
 	],
 	"buildPresets": [
@@ -394,6 +426,31 @@
 			"name": "Tickable-Win-Con-MSVC-Shi",
 			"displayName": "Tickable: Windows Console MSVC - Shipping",
 			"configurePreset": "Tickable-Win-Con-MSVC-Shi"
+		},
+		{
+			"name": "Interface-Win-Con-MSVC-Deb",
+			"displayName": "Interface: Windows Console MSVC - Debug",
+			"configurePreset": "Interface-Win-Con-MSVC-Deb"
+		},
+		{
+			"name": "Interface-Win-Con-MSVC-Dev",
+			"displayName": "Interface: Windows Console MSVC - Development",
+			"configurePreset": "Interface-Win-Con-MSVC-Dev"
+		},
+		{
+			"name": "Interface-Win-Con-MSVC-Opt",
+			"displayName": "Interface: Windows Console MSVC - Optimized",
+			"configurePreset": "Interface-Win-Con-MSVC-Opt"
+		},
+		{
+			"name": "Interface-Win-Con-MSVC-Rel",
+			"displayName": "Interface: Windows Console MSVC - Release",
+			"configurePreset": "Interface-Win-Con-MSVC-Rel"
+		},
+		{
+			"name": "Interface-Win-Con-MSVC-Shi",
+			"displayName": "Interface: Windows Console MSVC - Shipping",
+			"configurePreset": "Interface-Win-Con-MSVC-Shi"
 		}
 	]
 }
