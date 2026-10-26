@@ -374,6 +374,70 @@
 			"name": "Interface-Win-Con-MSVC-Shi",
 			"displayName": "Interface: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Interface" ]
+		},
+		{
+			"name": "Buffer",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "Application/Buffer"
+			}
+		},
+		{
+			"name": "Buffer-Win-Con-MSVC-Deb",
+			"displayName": "Buffer: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "Buffer" ]
+		},
+		{
+			"name": "Buffer-Win-Con-MSVC-Dev",
+			"displayName": "Buffer: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "Buffer" ]
+		},
+		{
+			"name": "Buffer-Win-Con-MSVC-Opt",
+			"displayName": "Buffer: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "Buffer" ]
+		},
+		{
+			"name": "Buffer-Win-Con-MSVC-Rel",
+			"displayName": "Buffer: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "Buffer" ]
+		},
+		{
+			"name": "Buffer-Win-Con-MSVC-Shi",
+			"displayName": "Buffer: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "Buffer" ]
+		},
+		{
+			"name": "Thread",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "Application/Thread"
+			}
+		},
+		{
+			"name": "Thread-Win-Con-MSVC-Deb",
+			"displayName": "Thread: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "Thread" ]
+		},
+		{
+			"name": "Thread-Win-Con-MSVC-Dev",
+			"displayName": "Thread: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "Thread" ]
+		},
+		{
+			"name": "Thread-Win-Con-MSVC-Opt",
+			"displayName": "Thread: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "Thread" ]
+		},
+		{
+			"name": "Thread-Win-Con-MSVC-Rel",
+			"displayName": "Thread: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "Thread" ]
+		},
+		{
+			"name": "Thread-Win-Con-MSVC-Shi",
+			"displayName": "Thread: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "Thread" ]
 		}
 	],
 	"buildPresets": [
@@ -451,6 +515,56 @@
 			"name": "Interface-Win-Con-MSVC-Shi",
 			"displayName": "Interface: Windows Console MSVC - Shipping",
 			"configurePreset": "Interface-Win-Con-MSVC-Shi"
+		},
+		{
+			"name": "Buffer-Win-Con-MSVC-Deb",
+			"displayName": "Buffer: Windows Console MSVC - Debug",
+			"configurePreset": "Buffer-Win-Con-MSVC-Deb"
+		},
+		{
+			"name": "Buffer-Win-Con-MSVC-Dev",
+			"displayName": "Buffer: Windows Console MSVC - Development",
+			"configurePreset": "Buffer-Win-Con-MSVC-Dev"
+		},
+		{
+			"name": "Buffer-Win-Con-MSVC-Opt",
+			"displayName": "Buffer: Windows Console MSVC - Optimized",
+			"configurePreset": "Buffer-Win-Con-MSVC-Opt"
+		},
+		{
+			"name": "Buffer-Win-Con-MSVC-Rel",
+			"displayName": "Buffer: Windows Console MSVC - Release",
+			"configurePreset": "Buffer-Win-Con-MSVC-Rel"
+		},
+		{
+			"name": "Buffer-Win-Con-MSVC-Shi",
+			"displayName": "Buffer: Windows Console MSVC - Shipping",
+			"configurePreset": "Buffer-Win-Con-MSVC-Shi"
+		},
+		{
+			"name": "Thread-Win-Con-MSVC-Deb",
+			"displayName": "Thread: Windows Console MSVC - Debug",
+			"configurePreset": "Thread-Win-Con-MSVC-Deb"
+		},
+		{
+			"name": "Thread-Win-Con-MSVC-Dev",
+			"displayName": "Thread: Windows Console MSVC - Development",
+			"configurePreset": "Thread-Win-Con-MSVC-Dev"
+		},
+		{
+			"name": "Thread-Win-Con-MSVC-Opt",
+			"displayName": "Thread: Windows Console MSVC - Optimized",
+			"configurePreset": "Thread-Win-Con-MSVC-Opt"
+		},
+		{
+			"name": "Thread-Win-Con-MSVC-Rel",
+			"displayName": "Thread: Windows Console MSVC - Release",
+			"configurePreset": "Thread-Win-Con-MSVC-Rel"
+		},
+		{
+			"name": "Thread-Win-Con-MSVC-Shi",
+			"displayName": "Thread: Windows Console MSVC - Shipping",
+			"configurePreset": "Thread-Win-Con-MSVC-Shi"
 		}
 	]
 }
