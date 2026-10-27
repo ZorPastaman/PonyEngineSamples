@@ -6,6 +6,6 @@ namespace Game
 {
 	std::shared_ptr<PonyEngine::Application::IModule> GetGameModule()
 	{
-		return std::make_shared<GameModule>();
+		return std::make_shared<GameModule>(); // Module function usually just creates a module and returns it.
 	}
 }

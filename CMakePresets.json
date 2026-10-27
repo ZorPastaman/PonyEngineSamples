@@ -438,6 +438,38 @@
 			"name": "Thread-Win-Con-MSVC-Shi",
 			"displayName": "Thread: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Thread" ]
+		},
+		{
+			"name": "Flow",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "Application/Flow"
+			}
+		},
+		{
+			"name": "Flow-Win-Con-MSVC-Deb",
+			"displayName": "Flow: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "Flow" ]
+		},
+		{
+			"name": "Flow-Win-Con-MSVC-Dev",
+			"displayName": "Flow: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "Flow" ]
+		},
+		{
+			"name": "Flow-Win-Con-MSVC-Opt",
+			"displayName": "Flow: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "Flow" ]
+		},
+		{
+			"name": "Flow-Win-Con-MSVC-Rel",
+			"displayName": "Flow: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "Flow" ]
+		},
+		{
+			"name": "Flow-Win-Con-MSVC-Shi",
+			"displayName": "Flow: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "Flow" ]
 		}
 	],
 	"buildPresets": [
@@ -565,6 +597,31 @@
 			"name": "Thread-Win-Con-MSVC-Shi",
 			"displayName": "Thread: Windows Console MSVC - Shipping",
 			"configurePreset": "Thread-Win-Con-MSVC-Shi"
+		},
+		{
+			"name": "Flow-Win-Con-MSVC-Deb",
+			"displayName": "Flow: Windows Console MSVC - Debug",
+			"configurePreset": "Flow-Win-Con-MSVC-Deb"
+		},
+		{
+			"name": "Flow-Win-Con-MSVC-Dev",
+			"displayName": "Flow: Windows Console MSVC - Development",
+			"configurePreset": "Flow-Win-Con-MSVC-Dev"
+		},
+		{
+			"name": "Flow-Win-Con-MSVC-Opt",
+			"displayName": "Flow: Windows Console MSVC - Optimized",
+			"configurePreset": "Flow-Win-Con-MSVC-Opt"
+		},
+		{
+			"name": "Flow-Win-Con-MSVC-Rel",
+			"displayName": "Flow: Windows Console MSVC - Release",
+			"configurePreset": "Flow-Win-Con-MSVC-Rel"
+		},
+		{
+			"name": "Flow-Win-Con-MSVC-Shi",
+			"displayName": "Flow: Windows Console MSVC - Shipping",
+			"configurePreset": "Flow-Win-Con-MSVC-Shi"
 		}
 	]
 }

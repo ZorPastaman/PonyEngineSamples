@@ -33,13 +33,14 @@ namespace Game
 {
 	void GameModule::StartUp(PonyEngine::Application::IModuleContext& context)
 	{
-		gameTicker = std::make_unique<GameTicker>(context.Application());
-		context.AddTickable(gameTicker->Tickable(), PonyEngine::Application::TickableOrder{.beginOrder = 0, .tickOrder = 0});
+		gameTicker = std::make_unique<GameTicker>(context.Application()); // Creates a ticker.
+		context.AddTickable(gameTicker->Tickable(), PonyEngine::Application::TickableOrder{.beginOrder = 0, .tickOrder = 0}); // Registers the tickable.
+		// The orders are used to sort all registered tickables and call them in a correct order. It's recommended that every order number is unique to avoid different sorting results.
 	}
 
 	void GameModule::ShutDown(PonyEngine::Application::IModuleContext& context)
 	{
-		context.RemoveTickable(gameTicker->Tickable(), PonyEngine::Application::TickableOrder{.beginOrder = 0, .tickOrder = 0});
-		gameTicker.reset();
+		context.RemoveTickable(gameTicker->Tickable(), PonyEngine::Application::TickableOrder{.beginOrder = 0, .tickOrder = 0}); // Unregisters the tickable. The arguments must be exactly the same as they were in the registration.
+		gameTicker.reset(); // Now it's safe to destroy the ticker.
 	}
 }

@@ -43,17 +43,17 @@ namespace Game
 
 	void GameTicker::Tick()
 	{
-		const std::span<const std::string_view> threadRoles = application->ThreadRoles();
+		const std::span<const std::string_view> threadRoles = application->ThreadRoles(); // Gets all the possible thread roles.
 		int someValue = 0;
 
 		if (std::ranges::contains(threadRoles, "Main"))
 		{
-			std::thread anotherThread = application->CreateThread([&]()
+			std::thread anotherThread = application->CreateThread([&]() // Thread function.
 			{
 				++someValue;
 			}, PonyEngine::Application::ThreadParams
 			{
-				.role = "Main"
+				.role = "Main" // Applied a main role to the thread. It applies some priority to the thread.
 			});
 			anotherThread.join();
 		}
@@ -63,7 +63,7 @@ namespace Game
 			++someValue;
 		}, PonyEngine::Application::ThreadParams
 		{
-			.role = ""
+			.role = "" // Default role (no priority applied) is always available though it's not included in application->ThreadRoles()
 		});
 		defaultThread.join();
 	}

@@ -30,8 +30,8 @@ export namespace Game
 namespace Game
 {
 	InterfaceConsumer::InterfaceConsumer(PonyEngine::Application::IApplication& application) :
-		interface{&application.GetInterface<IInterface>()},
-		invalidInterface{application.FindInterface<IInvalidInterface>()}
+		interface{&application.GetInterface<IInterface>()}, // Gets a reference to an existing interface.
+		invalidInterface{application.FindInterface<IInvalidInterface>()} // Tries to find an interface. But it's not implemented by any class, so the result is nullptr.
 	{
 		// Add start-up logic here.
 

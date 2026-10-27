@@ -8,3 +8,4 @@ Group of samples that shows some advanced features of the application module.
 |:-----------------|:-------------------------------------------------------------------|
 | [Buffer](Buffer) | Shows how to use application buffers to reduce memory allocations. |
 | [Thread](Thread) | Shows how to create threads with platform specific priorities.     |
+| [Flow](Flow)     | Shows how to interact with the application ticks.                  |
