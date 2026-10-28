@@ -470,6 +470,70 @@
 			"name": "Flow-Win-Con-MSVC-Shi",
 			"displayName": "Flow: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Flow" ]
+		},
+		{
+			"name": "FileRead",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "File/Read"
+			}
+		},
+		{
+			"name": "FileRead-Win-Con-MSVC-Deb",
+			"displayName": "FileRead: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "FileRead" ]
+		},
+		{
+			"name": "FileRead-Win-Con-MSVC-Dev",
+			"displayName": "FileRead: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "FileRead" ]
+		},
+		{
+			"name": "FileRead-Win-Con-MSVC-Opt",
+			"displayName": "FileRead: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "FileRead" ]
+		},
+		{
+			"name": "FileRead-Win-Con-MSVC-Rel",
+			"displayName": "FileRead: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "FileRead" ]
+		},
+		{
+			"name": "FileRead-Win-Con-MSVC-Shi",
+			"displayName": "FileRead: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "FileRead" ]
+		},
+		{
+			"name": "FileWrite",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "File/Write"
+			}
+		},
+		{
+			"name": "FileWrite-Win-Con-MSVC-Deb",
+			"displayName": "FileWrite: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "FileWrite" ]
+		},
+		{
+			"name": "FileWrite-Win-Con-MSVC-Dev",
+			"displayName": "FileWrite: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "FileWrite" ]
+		},
+		{
+			"name": "FileWrite-Win-Con-MSVC-Opt",
+			"displayName": "FileWrite: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "FileWrite" ]
+		},
+		{
+			"name": "FileWrite-Win-Con-MSVC-Rel",
+			"displayName": "FileWrite: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "FileWrite" ]
+		},
+		{
+			"name": "FileWrite-Win-Con-MSVC-Shi",
+			"displayName": "FileWrite: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "FileWrite" ]
 		}
 	],
 	"buildPresets": [
@@ -622,6 +686,56 @@
 			"name": "Flow-Win-Con-MSVC-Shi",
 			"displayName": "Flow: Windows Console MSVC - Shipping",
 			"configurePreset": "Flow-Win-Con-MSVC-Shi"
+		},
+		{
+			"name": "FileRead-Win-Con-MSVC-Deb",
+			"displayName": "FileRead: Windows Console MSVC - Debug",
+			"configurePreset": "FileRead-Win-Con-MSVC-Deb"
+		},
+		{
+			"name": "FileRead-Win-Con-MSVC-Dev",
+			"displayName": "FileRead: Windows Console MSVC - Development",
+			"configurePreset": "FileRead-Win-Con-MSVC-Dev"
+		},
+		{
+			"name": "FileRead-Win-Con-MSVC-Opt",
+			"displayName": "FileRead: Windows Console MSVC - Optimized",
+			"configurePreset": "FileRead-Win-Con-MSVC-Opt"
+		},
+		{
+			"name": "FileRead-Win-Con-MSVC-Rel",
+			"displayName": "FileRead: Windows Console MSVC - Release",
+			"configurePreset": "FileRead-Win-Con-MSVC-Rel"
+		},
+		{
+			"name": "FileRead-Win-Con-MSVC-Shi",
+			"displayName": "FileRead: Windows Console MSVC - Shipping",
+			"configurePreset": "FileRead-Win-Con-MSVC-Shi"
+		},
+		{
+			"name": "FileWrite-Win-Con-MSVC-Deb",
+			"displayName": "FileWrite: Windows Console MSVC - Debug",
+			"configurePreset": "FileWrite-Win-Con-MSVC-Deb"
+		},
+		{
+			"name": "FileWrite-Win-Con-MSVC-Dev",
+			"displayName": "FileWrite: Windows Console MSVC - Development",
+			"configurePreset": "FileWrite-Win-Con-MSVC-Dev"
+		},
+		{
+			"name": "FileWrite-Win-Con-MSVC-Opt",
+			"displayName": "FileWrite: Windows Console MSVC - Optimized",
+			"configurePreset": "FileWrite-Win-Con-MSVC-Opt"
+		},
+		{
+			"name": "FileWrite-Win-Con-MSVC-Rel",
+			"displayName": "FileWrite: Windows Console MSVC - Release",
+			"configurePreset": "FileWrite-Win-Con-MSVC-Rel"
+		},
+		{
+			"name": "FileWrite-Win-Con-MSVC-Shi",
+			"displayName": "FileWrite: Windows Console MSVC - Shipping",
+			"configurePreset": "FileWrite-Win-Con-MSVC-Shi"
 		}
 	]
 }

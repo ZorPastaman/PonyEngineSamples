@@ -1,7 +1,3 @@
-module;
-
-#include "PonyEngine/Log/Log.h"
-
 export module Game:GameTicker;
 
 import std;
@@ -42,7 +38,7 @@ namespace Game
 {
 	GameTicker::GameTicker(PonyEngine::Application::IApplication& application) noexcept :
 		application{&application},
-		logService{this->application->FindInterface<PonyEngine::Log::ILogService>()},
+		logService{&this->application->GetInterface<PonyEngine::Log::ILogService>()},
 		position{0.},
 		speed{2.}
 	{
@@ -57,23 +53,23 @@ namespace Game
 	{
 		const double prevPosition = position;
 		position += speed * application->DeltaTimeSeconds(); // Usage of delta time in seconds
-		PONY_LOG(logService, PonyEngine::Log::LogType::Info, "Position: '{}'. Delta: '{}'.", position, position - prevPosition);
+		PonyEngine::Log::LogToLogService(*logService, PonyEngine::Log::LogType::Info, "Position: '{}'. Delta: '{}'.", position, position - prevPosition);
 
 		const std::uint64_t frame = application->FrameCount(); // Getting a current frame count.
 		const double targetFrameTime = application->TargetFrameTimeSeconds(); // Getting a current target frame time in seconds.
 		if (frame == 20ull)
 		{
-			PONY_LOG(logService, PonyEngine::Log::LogType::Info, "Changing target frame time from '{}' to '{}'.", targetFrameTime, 1./60.);
+			PonyEngine::Log::LogToLogService(*logService, PonyEngine::Log::LogType::Info, "Changing target frame time from '{}' to '{}'.", targetFrameTime, 1./60.);
 			application->TargetFrameTimeSeconds(1./60.); // Changing frame frequency to 60 Hz.
 		}
 		else if (frame == 40ull)
 		{
-			PONY_LOG(logService, PonyEngine::Log::LogType::Info, "Changing target frame time from '{}' to '{}'.", targetFrameTime, 1./80.);
+			PonyEngine::Log::LogToLogService(*logService, PonyEngine::Log::LogType::Info, "Changing target frame time from '{}' to '{}'.", targetFrameTime, 1./80.);
 			application->TargetFrameTimeSeconds(1./80.); // Changing frame frequency to 80 Hz.
 		}
 		else if (frame == 60ull)
 		{
-			PONY_LOG(logService, PonyEngine::Log::LogType::Info, "Changing target frame time from '{}' to '{}'.", targetFrameTime, 0.);
+			PonyEngine::Log::LogToLogService(*logService, PonyEngine::Log::LogType::Info, "Changing target frame time from '{}' to '{}'.", targetFrameTime, 0.);
 			application->TargetFrameTimeSeconds(0.); // Changing frame frequency to 0 which means unrestricted.
 		}
 		else if (frame == 80ull)

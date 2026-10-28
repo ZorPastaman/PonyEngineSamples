@@ -1,0 +1,2 @@
+It's a sample file.
+It's read by a sample module.
