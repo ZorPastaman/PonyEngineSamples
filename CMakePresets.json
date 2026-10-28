@@ -472,6 +472,38 @@
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Flow" ]
 		},
 		{
+			"name": "Job",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "Job/Job"
+			}
+		},
+		{
+			"name": "Job-Win-Con-MSVC-Deb",
+			"displayName": "Job: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "Job" ]
+		},
+		{
+			"name": "Job-Win-Con-MSVC-Dev",
+			"displayName": "Job: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "Job" ]
+		},
+		{
+			"name": "Job-Win-Con-MSVC-Opt",
+			"displayName": "Job: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "Job" ]
+		},
+		{
+			"name": "Job-Win-Con-MSVC-Rel",
+			"displayName": "Job: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "Job" ]
+		},
+		{
+			"name": "Job-Win-Con-MSVC-Shi",
+			"displayName": "Job: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "Job" ]
+		},
+		{
 			"name": "FileRead",
 			"hidden": true,
 			"cacheVariables": {
@@ -686,6 +718,31 @@
 			"name": "Flow-Win-Con-MSVC-Shi",
 			"displayName": "Flow: Windows Console MSVC - Shipping",
 			"configurePreset": "Flow-Win-Con-MSVC-Shi"
+		},
+		{
+			"name": "Job-Win-Con-MSVC-Deb",
+			"displayName": "Job: Windows Console MSVC - Debug",
+			"configurePreset": "Job-Win-Con-MSVC-Deb"
+		},
+		{
+			"name": "Job-Win-Con-MSVC-Dev",
+			"displayName": "Job: Windows Console MSVC - Development",
+			"configurePreset": "Job-Win-Con-MSVC-Dev"
+		},
+		{
+			"name": "Job-Win-Con-MSVC-Opt",
+			"displayName": "Job: Windows Console MSVC - Optimized",
+			"configurePreset": "Job-Win-Con-MSVC-Opt"
+		},
+		{
+			"name": "Job-Win-Con-MSVC-Rel",
+			"displayName": "Job: Windows Console MSVC - Release",
+			"configurePreset": "Job-Win-Con-MSVC-Rel"
+		},
+		{
+			"name": "Job-Win-Con-MSVC-Shi",
+			"displayName": "Job: Windows Console MSVC - Shipping",
+			"configurePreset": "Job-Win-Con-MSVC-Shi"
 		},
 		{
 			"name": "FileRead-Win-Con-MSVC-Deb",
