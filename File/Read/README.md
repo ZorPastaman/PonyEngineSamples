@@ -6,6 +6,8 @@ The sample shows two modes: with and without a callback function.
 
 ## Details
 
+The sample class is [GameModule](Source/Game.cppm).
+
 First of all, you need to get the interface `PonyEngine::File::IFileService`.
 
 Then you need to open a file by path. You also need to provide file parameters.

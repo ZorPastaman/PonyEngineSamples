@@ -8,6 +8,8 @@ That mapping is set via an application implementation module. Refer to the engin
 
 ## Details
 
+The sample class is [GameTicker](Source/Game-GameTicker.cppm).
+
 To create a thread with a role, call `CreateThread()` on an instance of `PonyEngine::Application::IApplication`.
 In params pass a thread function and `PonyEngine::Application::ThreadParams`. In params you set a role.
 It must be either one of available thread roles or an empty string. The empty string means a default role, it's an equivalent to a normal thread creation.

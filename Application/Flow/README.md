@@ -11,6 +11,8 @@ The main functions are:
 
 ## Details
 
+The sample class is [GameTicker](Source/Game-GameTicker.cppm).
+
 The workflow of the application is based on frames. Every frame the application ticks registered tickables.
 The application updates delta time and other time and frame related info as well. Refer to `PonyEngine::Application::IApplication` docs for more info.
 

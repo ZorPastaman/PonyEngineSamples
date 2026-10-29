@@ -472,6 +472,38 @@
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Flow" ]
 		},
 		{
+			"name": "Log",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "Log/Log"
+			}
+		},
+		{
+			"name": "Log-Win-Con-MSVC-Deb",
+			"displayName": "Log: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "Log" ]
+		},
+		{
+			"name": "Log-Win-Con-MSVC-Dev",
+			"displayName": "Log: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "Log" ]
+		},
+		{
+			"name": "Log-Win-Con-MSVC-Opt",
+			"displayName": "Log: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "Log" ]
+		},
+		{
+			"name": "Log-Win-Con-MSVC-Rel",
+			"displayName": "Log: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "Log" ]
+		},
+		{
+			"name": "Log-Win-Con-MSVC-Shi",
+			"displayName": "Log: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "Log" ]
+		},
+		{
 			"name": "Job",
 			"hidden": true,
 			"cacheVariables": {
@@ -718,6 +750,31 @@
 			"name": "Flow-Win-Con-MSVC-Shi",
 			"displayName": "Flow: Windows Console MSVC - Shipping",
 			"configurePreset": "Flow-Win-Con-MSVC-Shi"
+		},
+		{
+			"name": "Log-Win-Con-MSVC-Deb",
+			"displayName": "Log: Windows Console MSVC - Debug",
+			"configurePreset": "Log-Win-Con-MSVC-Deb"
+		},
+		{
+			"name": "Log-Win-Con-MSVC-Dev",
+			"displayName": "Log: Windows Console MSVC - Development",
+			"configurePreset": "Log-Win-Con-MSVC-Dev"
+		},
+		{
+			"name": "Log-Win-Con-MSVC-Opt",
+			"displayName": "Log: Windows Console MSVC - Optimized",
+			"configurePreset": "Log-Win-Con-MSVC-Opt"
+		},
+		{
+			"name": "Log-Win-Con-MSVC-Rel",
+			"displayName": "Log: Windows Console MSVC - Release",
+			"configurePreset": "Log-Win-Con-MSVC-Rel"
+		},
+		{
+			"name": "Log-Win-Con-MSVC-Shi",
+			"displayName": "Log: Windows Console MSVC - Shipping",
+			"configurePreset": "Log-Win-Con-MSVC-Shi"
 		},
 		{
 			"name": "Job-Win-Con-MSVC-Deb",

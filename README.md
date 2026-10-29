@@ -118,6 +118,7 @@ It applies flags to built targets, creates DLL groups if requested and links the
 |:---------------------------|:---------------------------------------------------------------------------------------|
 | [Basic](Basic)             | Shows very basic usage of the engine. It's a great starting point to learn the engine. |
 | [Application](Application) | Shows how to use different features of the application module.                         |
+| [Log](Log)                 | Shows how to use the log module.                                                       |
 | [Job](Job)                 | Shows how to use the job module.                                                       |
 | [File](File)               | Shows how to use the file module.                                                      |
 

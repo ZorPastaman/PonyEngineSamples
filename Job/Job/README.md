@@ -4,6 +4,8 @@ Shows the main API of the job module.
 
 ## Details 
 
+The sample class is [GameTicker](Source/Game-GameTicker.cppm).
+
 The main interface is `PonyEngine::Job::IJobService`. It may be gotten from the application.
 
 Its API is quite simple. It has a `Schedule` function which takes a task (`std::move_only_function<void() noexcept>`)
