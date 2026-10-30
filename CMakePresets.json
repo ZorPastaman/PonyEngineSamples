@@ -504,6 +504,38 @@
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Log" ]
 		},
 		{
+			"name": "Logger",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "Log/Logger"
+			}
+		},
+		{
+			"name": "Logger-Win-Con-MSVC-Deb",
+			"displayName": "Logger: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "Logger" ]
+		},
+		{
+			"name": "Logger-Win-Con-MSVC-Dev",
+			"displayName": "Logger: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "Logger" ]
+		},
+		{
+			"name": "Logger-Win-Con-MSVC-Opt",
+			"displayName": "Logger: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "Logger" ]
+		},
+		{
+			"name": "Logger-Win-Con-MSVC-Rel",
+			"displayName": "Logger: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "Logger" ]
+		},
+		{
+			"name": "Logger-Win-Con-MSVC-Shi",
+			"displayName": "Logger: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "Logger" ]
+		},
+		{
 			"name": "Job",
 			"hidden": true,
 			"cacheVariables": {
@@ -775,6 +807,31 @@
 			"name": "Log-Win-Con-MSVC-Shi",
 			"displayName": "Log: Windows Console MSVC - Shipping",
 			"configurePreset": "Log-Win-Con-MSVC-Shi"
+		},
+		{
+			"name": "Logger-Win-Con-MSVC-Deb",
+			"displayName": "Logger: Windows Console MSVC - Debug",
+			"configurePreset": "Logger-Win-Con-MSVC-Deb"
+		},
+		{
+			"name": "Logger-Win-Con-MSVC-Dev",
+			"displayName": "Logger: Windows Console MSVC - Development",
+			"configurePreset": "Logger-Win-Con-MSVC-Dev"
+		},
+		{
+			"name": "Logger-Win-Con-MSVC-Opt",
+			"displayName": "Logger: Windows Console MSVC - Optimized",
+			"configurePreset": "Logger-Win-Con-MSVC-Opt"
+		},
+		{
+			"name": "Logger-Win-Con-MSVC-Rel",
+			"displayName": "Logger: Windows Console MSVC - Release",
+			"configurePreset": "Logger-Win-Con-MSVC-Rel"
+		},
+		{
+			"name": "Logger-Win-Con-MSVC-Shi",
+			"displayName": "Logger: Windows Console MSVC - Shipping",
+			"configurePreset": "Logger-Win-Con-MSVC-Shi"
 		},
 		{
 			"name": "Job-Win-Con-MSVC-Deb",

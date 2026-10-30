@@ -3,6 +3,7 @@ export module Game:GameModule;
 import std;
 
 import PonyEngine.Application;
+import PonyEngine.Utility;
 
 import :GameTicker;
 
@@ -33,8 +34,13 @@ namespace Game
 {
 	void GameModule::StartUp(PonyEngine::Application::IModuleContext& context)
 	{
+		auto scopeGuardFlag = PonyEngine::Utility::ScopeGuardFlag();
+
 		gameTicker = std::make_unique<GameTicker>(context.Application());
+		const auto tickerScopeGuard = PonyEngine::Utility::ScopeGuard([&]() noexcept { gameTicker.reset(); }, scopeGuardFlag);
 		context.AddTickable(gameTicker->Tickable(), PonyEngine::Application::TickableOrder{.tickOrder = 0});
+
+		scopeGuardFlag.Release();
 	}
 
 	void GameModule::ShutDown(PonyEngine::Application::IModuleContext& context)

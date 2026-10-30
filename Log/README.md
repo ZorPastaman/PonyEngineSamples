@@ -10,6 +10,7 @@ Standard log formatting:
 
 ## Samples
 
-| Sample         | Description      |
-|:---------------|:-----------------|
-| [Log](Log)     | Main log sample. |
+| Sample           | Description                        |
+|:-----------------|:-----------------------------------|
+| [Log](Log)       | Main log sample.                   |
+| [Logger](Logger) | Shows how to make a custom logger. |
