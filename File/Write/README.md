@@ -1,4 +1,4 @@
-# Write sample
+# File write sample
 
 Shows how to write to a file.
 

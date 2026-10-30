@@ -1,0 +1,3 @@
+schema = 'PonyEngine/Resource/Text/Data/v0'
+
+removeFinalNewLine = true

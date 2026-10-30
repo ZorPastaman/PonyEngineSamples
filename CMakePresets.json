@@ -630,6 +630,38 @@
 			"name": "FileWrite-Win-Con-MSVC-Shi",
 			"displayName": "FileWrite: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "FileWrite" ]
+		},
+		{
+			"name": "ResourceMain",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "Resource/Main"
+			}
+		},
+		{
+			"name": "ResourceMain-Win-Con-MSVC-Deb",
+			"displayName": "ResourceMain: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "ResourceMain" ]
+		},
+		{
+			"name": "ResourceMain-Win-Con-MSVC-Dev",
+			"displayName": "ResourceMain: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "ResourceMain" ]
+		},
+		{
+			"name": "ResourceMain-Win-Con-MSVC-Opt",
+			"displayName": "ResourceMain: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "ResourceMain" ]
+		},
+		{
+			"name": "ResourceMain-Win-Con-MSVC-Rel",
+			"displayName": "ResourceMain: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "ResourceMain" ]
+		},
+		{
+			"name": "ResourceMain-Win-Con-MSVC-Shi",
+			"displayName": "ResourceMain: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "ResourceMain" ]
 		}
 	],
 	"buildPresets": [
@@ -907,6 +939,31 @@
 			"name": "FileWrite-Win-Con-MSVC-Shi",
 			"displayName": "FileWrite: Windows Console MSVC - Shipping",
 			"configurePreset": "FileWrite-Win-Con-MSVC-Shi"
+		},
+		{
+			"name": "ResourceMain-Win-Con-MSVC-Deb",
+			"displayName": "ResourceMain: Windows Console MSVC - Debug",
+			"configurePreset": "ResourceMain-Win-Con-MSVC-Deb"
+		},
+		{
+			"name": "ResourceMain-Win-Con-MSVC-Dev",
+			"displayName": "ResourceMain: Windows Console MSVC - Development",
+			"configurePreset": "ResourceMain-Win-Con-MSVC-Dev"
+		},
+		{
+			"name": "ResourceMain-Win-Con-MSVC-Opt",
+			"displayName": "ResourceMain: Windows Console MSVC - Optimized",
+			"configurePreset": "ResourceMain-Win-Con-MSVC-Opt"
+		},
+		{
+			"name": "ResourceMain-Win-Con-MSVC-Rel",
+			"displayName": "ResourceMain: Windows Console MSVC - Release",
+			"configurePreset": "ResourceMain-Win-Con-MSVC-Rel"
+		},
+		{
+			"name": "ResourceMain-Win-Con-MSVC-Shi",
+			"displayName": "ResourceMain: Windows Console MSVC - Shipping",
+			"configurePreset": "ResourceMain-Win-Con-MSVC-Shi"
 		}
 	]
 }

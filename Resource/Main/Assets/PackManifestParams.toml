@@ -1,0 +1,6 @@
+schema = 'PonyEngine/Resource/Pack/Manifest/v0'
+
+deduplicateTypes = true
+deduplicateDataMetas = true
+deduplicateLoadMetas = true
+deduplicateRanges = true

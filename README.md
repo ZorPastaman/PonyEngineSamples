@@ -121,5 +121,6 @@ It applies flags to built targets, creates DLL groups if requested and links the
 | [Log](Log)                 | Shows how to use the log module.                                                       |
 | [Job](Job)                 | Shows how to use the job module.                                                       |
 | [File](File)               | Shows how to use the file module.                                                      |
+| [Resource](Resource)       | Shows how to use the resource module.                                                  |
 
 The samples don't cover all the functions of the engine. Please, refer to the engine documentation for more.

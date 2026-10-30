@@ -8,6 +8,6 @@ Jobs may have dependencies on other jobs. In this case, the job execution won't 
 
 ## Samples
 
-| Sample         | Description      |
-|:---------------|:-----------------|
-| [Job](Job)     | Main job sample. |
+| Sample     | Description      |
+|:-----------|:-----------------|
+| [Job](Job) | Main job sample. |

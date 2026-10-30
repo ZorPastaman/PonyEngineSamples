@@ -1,0 +1,3 @@
+schema = 'PonyEngine/Resource/Text/Load/v0'
+
+directResourceAccess = false

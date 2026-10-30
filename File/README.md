@@ -9,7 +9,7 @@ For anything sync, use `std::filesystem`.
 
 ## Samples
 
-| Sample         | Description                |
-|:---------------|:---------------------------|
-| [Read](Read)   | Shows how to read a file.  |
-| [Write](Write) | Shows how to write a file. |
+| Sample             | Description                |
+|:-------------------|:---------------------------|
+| [FileRead](Read)   | Shows how to read a file.  |
+| [FileWrite](Write) | Shows how to write a file. |
