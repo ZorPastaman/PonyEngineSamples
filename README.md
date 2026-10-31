@@ -23,8 +23,8 @@ See below how build and install according to a chosen method.
 cmake --list-presets                 # Shows all the possible presets. Choose among them.
 cmake --preset <preset>              # Configures the chosen preset.
 cmake --build --preset <preset>      # Builds the chosen preset.
-cmake --install "Build/<preset>"     # Install the chosen preset.
-"Install/<preset>/PonyEngineGame"    # Launches the built project.
+cmake --install "Build/Sample"       # Installs the chosen preset.
+"Install/Sample/PonyEngineGame"      # Launches the built project.
 ```
 
 ### Visual Studio
@@ -44,9 +44,6 @@ All the presets follow this logic in naming:
 
 Sub-platform options depend on a platform. For example, for `Windows` they are `Console` and `GUI`.
 
-The preset display names and actual names are different. The actual names are shorter to avoid long paths.
-The only part of the name that is never shortened is a sample name.
-
 The samples don't have to support all the possible variants of build targets. In many cases it would be an overkill.
 For example, many samples support only `Console` sub-platform on `Windows` cause they don't need to show something graphically
 and it lets keep the sample very simple.
@@ -59,20 +56,14 @@ It's controlled via CMake variable `PONY_MAKE_GROUPS`. The groups are predefined
 
 #### `Windows`
 
-Platform short name: `Win`.
+Sub-platforms:
 
-| Sub-platform | Short name |
-|:-------------|:-----------|
-| Console      | Con        |
-| GUI          | GUI        |
-
-The console sub-platform creates a console application for `Windows`. The GUI sub-platform creates a normal `Windows` application.
+1. `Console` - creates a console application for `Windows`.
+2. `GUI` - creates a normal `Windows` application.
 
 ### Compilers
 
 #### `MSVC`
-
-Compiler short name: `MSVC`.
 
 MSVC requires some preparation before using CMake. You must set vc variables via `vcvarsall.bat`.
 The details are here: https://learn.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-170
@@ -81,13 +72,13 @@ If you use Visual Studio, it will do all the required preparations automatically
 
 ### Build types
 
-| Build type  | Short name | CMake build type | Engine optimization | Game optimization | Engine log level | Game log level | Engine log stacktrace level | Game log stacktrace level | Make groups |
-|:------------|:-----------|:-----------------|:--------------------|:------------------|:-----------------|:---------------|:----------------------------|:--------------------------|:-----------:|
-| Debug       | Deb        | Debug            | Debug               | Debug             | Debug            | Debug          | Error                       | Error                     | &check;     |
-| Development | Dev        | Debug            | Release             | Debug             | Info             | Debug          | Fatal                       | Error                     | &check;     |
-| Optimized   | Opt        | Debug            | Release             | Release           | Info             | Info           | Fatal                       | Fatal                     | &check;     |
-| Release     | Rel        | RelWithDebInfo   | Release             | Release           | Warning          | Info           | Fatal                       | Fatal                     | -           |
-| Shipping    | Shi        | Release          | Release             | Release           | Error            | Error          | Fatal                       | Fatal                     | -           |
+| Build type  | CMake build type | Engine optimization | Game optimization | Engine log level | Game log level | Engine log stacktrace level | Game log stacktrace level | Make groups |
+|:------------|:-----------------|:--------------------|:------------------|:-----------------|:---------------|:----------------------------|:--------------------------|:-----------:|
+| Debug       | Debug            | Debug               | Debug             | Debug            | Debug          | Error                       | Error                     | &check;     |
+| Development | Debug            | Release             | Debug             | Info             | Debug          | Fatal                       | Error                     | &check;     |
+| Optimized   | Debug            | Release             | Release           | Info             | Info           | Fatal                       | Fatal                     | &check;     |
+| Release     | RelWithDebInfo   | Release             | Release           | Warning          | Info           | Fatal                       | Fatal                     | -           |
+| Shipping    | Release          | Release             | Release           | Error            | Error          | Fatal                       | Fatal                     | -           |
 
 ## How it works
 

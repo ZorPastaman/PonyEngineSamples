@@ -4,8 +4,8 @@
 		{
 			"name": "Base",
 			"hidden": true,
-			"binaryDir": "${sourceDir}/Build/${presetName}",
-			"installDir": "${sourceDir}/Install/${presetName}",
+			"binaryDir": "${sourceDir}/Build/Sample",
+			"installDir": "${sourceDir}/Install/Sample",
 			"generator": "Ninja",
 			"environment": {
 				"PATH": "${sourceDir}/Install/Tools;$penv{PATH}"
@@ -287,27 +287,27 @@
 			}
 		},
 		{
-			"name": "Module-Win-Con-MSVC-Deb",
+			"name": "Module-Windows-Console-MSVC-Debug",
 			"displayName": "Module: Windows Console MSVC - Debug",
 			"inherits": [ "Windows-Console-MSVC-Debug", "Module" ]
 		},
 		{
-			"name": "Module-Win-Con-MSVC-Dev",
+			"name": "Module-Windows-Console-MSVC-Development",
 			"displayName": "Module: Windows Console MSVC - Development",
 			"inherits": [ "Windows-Console-MSVC-Development", "Module" ]
 		},
 		{
-			"name": "Module-Win-Con-MSVC-Opt",
+			"name": "Module-Windows-Console-MSVC-Optimized",
 			"displayName": "Module: Windows Console MSVC - Optimized",
 			"inherits": [ "Windows-Console-MSVC-Optimized", "Module" ]
 		},
 		{
-			"name": "Module-Win-Con-MSVC-Rel",
+			"name": "Module-Windows-Console-MSVC-Release",
 			"displayName": "Module: Windows Console MSVC - Release",
 			"inherits": [ "Windows-Console-MSVC-Release", "Module" ]
 		},
 		{
-			"name": "Module-Win-Con-MSVC-Shi",
+			"name": "Module-Windows-Console-MSVC-Shipping",
 			"displayName": "Module: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Module" ]
 		},
@@ -319,27 +319,27 @@
 			}
 		},
 		{
-			"name": "Tickable-Win-Con-MSVC-Deb",
+			"name": "Tickable-Windows-Console-MSVC-Debug",
 			"displayName": "Tickable: Windows Console MSVC - Debug",
 			"inherits": [ "Windows-Console-MSVC-Debug", "Tickable" ]
 		},
 		{
-			"name": "Tickable-Win-Con-MSVC-Dev",
+			"name": "Tickable-Windows-Console-MSVC-Development",
 			"displayName": "Tickable: Windows Console MSVC - Development",
 			"inherits": [ "Windows-Console-MSVC-Development", "Tickable" ]
 		},
 		{
-			"name": "Tickable-Win-Con-MSVC-Opt",
+			"name": "Tickable-Windows-Console-MSVC-Optimized",
 			"displayName": "Tickable: Windows Console MSVC - Optimized",
 			"inherits": [ "Windows-Console-MSVC-Optimized", "Tickable" ]
 		},
 		{
-			"name": "Tickable-Win-Con-MSVC-Rel",
+			"name": "Tickable-Windows-Console-MSVC-Release",
 			"displayName": "Tickable: Windows Console MSVC - Release",
 			"inherits": [ "Windows-Console-MSVC-Release", "Tickable" ]
 		},
 		{
-			"name": "Tickable-Win-Con-MSVC-Shi",
+			"name": "Tickable-Windows-Console-MSVC-Shipping",
 			"displayName": "Tickable: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Tickable" ]
 		},
@@ -351,27 +351,27 @@
 			}
 		},
 		{
-			"name": "Interface-Win-Con-MSVC-Deb",
+			"name": "Interface-Windows-Console-MSVC-Debug",
 			"displayName": "Interface: Windows Console MSVC - Debug",
 			"inherits": [ "Windows-Console-MSVC-Debug", "Interface" ]
 		},
 		{
-			"name": "Interface-Win-Con-MSVC-Dev",
+			"name": "Interface-Windows-Console-MSVC-Development",
 			"displayName": "Interface: Windows Console MSVC - Development",
 			"inherits": [ "Windows-Console-MSVC-Development", "Interface" ]
 		},
 		{
-			"name": "Interface-Win-Con-MSVC-Opt",
+			"name": "Interface-Windows-Console-MSVC-Optimized",
 			"displayName": "Interface: Windows Console MSVC - Optimized",
 			"inherits": [ "Windows-Console-MSVC-Optimized", "Interface" ]
 		},
 		{
-			"name": "Interface-Win-Con-MSVC-Rel",
+			"name": "Interface-Windows-Console-MSVC-Release",
 			"displayName": "Interface: Windows Console MSVC - Release",
 			"inherits": [ "Windows-Console-MSVC-Release", "Interface" ]
 		},
 		{
-			"name": "Interface-Win-Con-MSVC-Shi",
+			"name": "Interface-Windows-Console-MSVC-Shipping",
 			"displayName": "Interface: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Interface" ]
 		},
@@ -383,27 +383,27 @@
 			}
 		},
 		{
-			"name": "Buffer-Win-Con-MSVC-Deb",
+			"name": "Buffer-Windows-Console-MSVC-Debug",
 			"displayName": "Buffer: Windows Console MSVC - Debug",
 			"inherits": [ "Windows-Console-MSVC-Debug", "Buffer" ]
 		},
 		{
-			"name": "Buffer-Win-Con-MSVC-Dev",
+			"name": "Buffer-Windows-Console-MSVC-Development",
 			"displayName": "Buffer: Windows Console MSVC - Development",
 			"inherits": [ "Windows-Console-MSVC-Development", "Buffer" ]
 		},
 		{
-			"name": "Buffer-Win-Con-MSVC-Opt",
+			"name": "Buffer-Windows-Console-MSVC-Optimized",
 			"displayName": "Buffer: Windows Console MSVC - Optimized",
 			"inherits": [ "Windows-Console-MSVC-Optimized", "Buffer" ]
 		},
 		{
-			"name": "Buffer-Win-Con-MSVC-Rel",
+			"name": "Buffer-Windows-Console-MSVC-Release",
 			"displayName": "Buffer: Windows Console MSVC - Release",
 			"inherits": [ "Windows-Console-MSVC-Release", "Buffer" ]
 		},
 		{
-			"name": "Buffer-Win-Con-MSVC-Shi",
+			"name": "Buffer-Windows-Console-MSVC-Shipping",
 			"displayName": "Buffer: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Buffer" ]
 		},
@@ -415,27 +415,27 @@
 			}
 		},
 		{
-			"name": "Thread-Win-Con-MSVC-Deb",
+			"name": "Thread-Windows-Console-MSVC-Debug",
 			"displayName": "Thread: Windows Console MSVC - Debug",
 			"inherits": [ "Windows-Console-MSVC-Debug", "Thread" ]
 		},
 		{
-			"name": "Thread-Win-Con-MSVC-Dev",
+			"name": "Thread-Windows-Console-MSVC-Development",
 			"displayName": "Thread: Windows Console MSVC - Development",
 			"inherits": [ "Windows-Console-MSVC-Development", "Thread" ]
 		},
 		{
-			"name": "Thread-Win-Con-MSVC-Opt",
+			"name": "Thread-Windows-Console-MSVC-Optimized",
 			"displayName": "Thread: Windows Console MSVC - Optimized",
 			"inherits": [ "Windows-Console-MSVC-Optimized", "Thread" ]
 		},
 		{
-			"name": "Thread-Win-Con-MSVC-Rel",
+			"name": "Thread-Windows-Console-MSVC-Release",
 			"displayName": "Thread: Windows Console MSVC - Release",
 			"inherits": [ "Windows-Console-MSVC-Release", "Thread" ]
 		},
 		{
-			"name": "Thread-Win-Con-MSVC-Shi",
+			"name": "Thread-Windows-Console-MSVC-Shipping",
 			"displayName": "Thread: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Thread" ]
 		},
@@ -447,27 +447,27 @@
 			}
 		},
 		{
-			"name": "Flow-Win-Con-MSVC-Deb",
+			"name": "Flow-Windows-Console-MSVC-Debug",
 			"displayName": "Flow: Windows Console MSVC - Debug",
 			"inherits": [ "Windows-Console-MSVC-Debug", "Flow" ]
 		},
 		{
-			"name": "Flow-Win-Con-MSVC-Dev",
+			"name": "Flow-Windows-Console-MSVC-Development",
 			"displayName": "Flow: Windows Console MSVC - Development",
 			"inherits": [ "Windows-Console-MSVC-Development", "Flow" ]
 		},
 		{
-			"name": "Flow-Win-Con-MSVC-Opt",
+			"name": "Flow-Windows-Console-MSVC-Optimized",
 			"displayName": "Flow: Windows Console MSVC - Optimized",
 			"inherits": [ "Windows-Console-MSVC-Optimized", "Flow" ]
 		},
 		{
-			"name": "Flow-Win-Con-MSVC-Rel",
+			"name": "Flow-Windows-Console-MSVC-Release",
 			"displayName": "Flow: Windows Console MSVC - Release",
 			"inherits": [ "Windows-Console-MSVC-Release", "Flow" ]
 		},
 		{
-			"name": "Flow-Win-Con-MSVC-Shi",
+			"name": "Flow-Windows-Console-MSVC-Shipping",
 			"displayName": "Flow: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Flow" ]
 		},
@@ -479,27 +479,27 @@
 			}
 		},
 		{
-			"name": "Log-Win-Con-MSVC-Deb",
+			"name": "Log-Windows-Console-MSVC-Debug",
 			"displayName": "Log: Windows Console MSVC - Debug",
 			"inherits": [ "Windows-Console-MSVC-Debug", "Log" ]
 		},
 		{
-			"name": "Log-Win-Con-MSVC-Dev",
+			"name": "Log-Windows-Console-MSVC-Development",
 			"displayName": "Log: Windows Console MSVC - Development",
 			"inherits": [ "Windows-Console-MSVC-Development", "Log" ]
 		},
 		{
-			"name": "Log-Win-Con-MSVC-Opt",
+			"name": "Log-Windows-Console-MSVC-Optimized",
 			"displayName": "Log: Windows Console MSVC - Optimized",
 			"inherits": [ "Windows-Console-MSVC-Optimized", "Log" ]
 		},
 		{
-			"name": "Log-Win-Con-MSVC-Rel",
+			"name": "Log-Windows-Console-MSVC-Release",
 			"displayName": "Log: Windows Console MSVC - Release",
 			"inherits": [ "Windows-Console-MSVC-Release", "Log" ]
 		},
 		{
-			"name": "Log-Win-Con-MSVC-Shi",
+			"name": "Log-Windows-Console-MSVC-Shipping",
 			"displayName": "Log: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Log" ]
 		},
@@ -511,27 +511,27 @@
 			}
 		},
 		{
-			"name": "Logger-Win-Con-MSVC-Deb",
+			"name": "Logger-Windows-Console-MSVC-Debug",
 			"displayName": "Logger: Windows Console MSVC - Debug",
 			"inherits": [ "Windows-Console-MSVC-Debug", "Logger" ]
 		},
 		{
-			"name": "Logger-Win-Con-MSVC-Dev",
+			"name": "Logger-Windows-Console-MSVC-Development",
 			"displayName": "Logger: Windows Console MSVC - Development",
 			"inherits": [ "Windows-Console-MSVC-Development", "Logger" ]
 		},
 		{
-			"name": "Logger-Win-Con-MSVC-Opt",
+			"name": "Logger-Windows-Console-MSVC-Optimized",
 			"displayName": "Logger: Windows Console MSVC - Optimized",
 			"inherits": [ "Windows-Console-MSVC-Optimized", "Logger" ]
 		},
 		{
-			"name": "Logger-Win-Con-MSVC-Rel",
+			"name": "Logger-Windows-Console-MSVC-Release",
 			"displayName": "Logger: Windows Console MSVC - Release",
 			"inherits": [ "Windows-Console-MSVC-Release", "Logger" ]
 		},
 		{
-			"name": "Logger-Win-Con-MSVC-Shi",
+			"name": "Logger-Windows-Console-MSVC-Shipping",
 			"displayName": "Logger: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Logger" ]
 		},
@@ -543,27 +543,27 @@
 			}
 		},
 		{
-			"name": "Job-Win-Con-MSVC-Deb",
+			"name": "Job-Windows-Console-MSVC-Debug",
 			"displayName": "Job: Windows Console MSVC - Debug",
 			"inherits": [ "Windows-Console-MSVC-Debug", "Job" ]
 		},
 		{
-			"name": "Job-Win-Con-MSVC-Dev",
+			"name": "Job-Windows-Console-MSVC-Development",
 			"displayName": "Job: Windows Console MSVC - Development",
 			"inherits": [ "Windows-Console-MSVC-Development", "Job" ]
 		},
 		{
-			"name": "Job-Win-Con-MSVC-Opt",
+			"name": "Job-Windows-Console-MSVC-Optimized",
 			"displayName": "Job: Windows Console MSVC - Optimized",
 			"inherits": [ "Windows-Console-MSVC-Optimized", "Job" ]
 		},
 		{
-			"name": "Job-Win-Con-MSVC-Rel",
+			"name": "Job-Windows-Console-MSVC-Release",
 			"displayName": "Job: Windows Console MSVC - Release",
 			"inherits": [ "Windows-Console-MSVC-Release", "Job" ]
 		},
 		{
-			"name": "Job-Win-Con-MSVC-Shi",
+			"name": "Job-Windows-Console-MSVC-Shipping",
 			"displayName": "Job: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Job" ]
 		},
@@ -575,27 +575,27 @@
 			}
 		},
 		{
-			"name": "FileRead-Win-Con-MSVC-Deb",
+			"name": "FileRead-Windows-Console-MSVC-Debug",
 			"displayName": "FileRead: Windows Console MSVC - Debug",
 			"inherits": [ "Windows-Console-MSVC-Debug", "FileRead" ]
 		},
 		{
-			"name": "FileRead-Win-Con-MSVC-Dev",
+			"name": "FileRead-Windows-Console-MSVC-Development",
 			"displayName": "FileRead: Windows Console MSVC - Development",
 			"inherits": [ "Windows-Console-MSVC-Development", "FileRead" ]
 		},
 		{
-			"name": "FileRead-Win-Con-MSVC-Opt",
+			"name": "FileRead-Windows-Console-MSVC-Optimized",
 			"displayName": "FileRead: Windows Console MSVC - Optimized",
 			"inherits": [ "Windows-Console-MSVC-Optimized", "FileRead" ]
 		},
 		{
-			"name": "FileRead-Win-Con-MSVC-Rel",
+			"name": "FileRead-Windows-Console-MSVC-Release",
 			"displayName": "FileRead: Windows Console MSVC - Release",
 			"inherits": [ "Windows-Console-MSVC-Release", "FileRead" ]
 		},
 		{
-			"name": "FileRead-Win-Con-MSVC-Shi",
+			"name": "FileRead-Windows-Console-MSVC-Shipping",
 			"displayName": "FileRead: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "FileRead" ]
 		},
@@ -607,27 +607,27 @@
 			}
 		},
 		{
-			"name": "FileWrite-Win-Con-MSVC-Deb",
+			"name": "FileWrite-Windows-Console-MSVC-Debug",
 			"displayName": "FileWrite: Windows Console MSVC - Debug",
 			"inherits": [ "Windows-Console-MSVC-Debug", "FileWrite" ]
 		},
 		{
-			"name": "FileWrite-Win-Con-MSVC-Dev",
+			"name": "FileWrite-Windows-Console-MSVC-Development",
 			"displayName": "FileWrite: Windows Console MSVC - Development",
 			"inherits": [ "Windows-Console-MSVC-Development", "FileWrite" ]
 		},
 		{
-			"name": "FileWrite-Win-Con-MSVC-Opt",
+			"name": "FileWrite-Windows-Console-MSVC-Optimized",
 			"displayName": "FileWrite: Windows Console MSVC - Optimized",
 			"inherits": [ "Windows-Console-MSVC-Optimized", "FileWrite" ]
 		},
 		{
-			"name": "FileWrite-Win-Con-MSVC-Rel",
+			"name": "FileWrite-Windows-Console-MSVC-Release",
 			"displayName": "FileWrite: Windows Console MSVC - Release",
 			"inherits": [ "Windows-Console-MSVC-Release", "FileWrite" ]
 		},
 		{
-			"name": "FileWrite-Win-Con-MSVC-Shi",
+			"name": "FileWrite-Windows-Console-MSVC-Shipping",
 			"displayName": "FileWrite: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "FileWrite" ]
 		},
@@ -639,331 +639,388 @@
 			}
 		},
 		{
-			"name": "ResourceMain-Win-Con-MSVC-Deb",
+			"name": "ResourceMain-Windows-Console-MSVC-Debug",
 			"displayName": "ResourceMain: Windows Console MSVC - Debug",
 			"inherits": [ "Windows-Console-MSVC-Debug", "ResourceMain" ]
 		},
 		{
-			"name": "ResourceMain-Win-Con-MSVC-Dev",
+			"name": "ResourceMain-Windows-Console-MSVC-Development",
 			"displayName": "ResourceMain: Windows Console MSVC - Development",
 			"inherits": [ "Windows-Console-MSVC-Development", "ResourceMain" ]
 		},
 		{
-			"name": "ResourceMain-Win-Con-MSVC-Opt",
+			"name": "ResourceMain-Windows-Console-MSVC-Optimized",
 			"displayName": "ResourceMain: Windows Console MSVC - Optimized",
 			"inherits": [ "Windows-Console-MSVC-Optimized", "ResourceMain" ]
 		},
 		{
-			"name": "ResourceMain-Win-Con-MSVC-Rel",
+			"name": "ResourceMain-Windows-Console-MSVC-Release",
 			"displayName": "ResourceMain: Windows Console MSVC - Release",
 			"inherits": [ "Windows-Console-MSVC-Release", "ResourceMain" ]
 		},
 		{
-			"name": "ResourceMain-Win-Con-MSVC-Shi",
+			"name": "ResourceMain-Windows-Console-MSVC-Shipping",
 			"displayName": "ResourceMain: Windows Console MSVC - Shipping",
 			"inherits": [ "Windows-Console-MSVC-Shipping", "ResourceMain" ]
+		},
+		{
+			"name": "ResourceWorld",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "Resource/World"
+			}
+		},
+		{
+			"name": "ResourceWorld-Windows-Console-MSVC-Debug",
+			"displayName": "ResourceWorld: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "ResourceWorld" ]
+		},
+		{
+			"name": "ResourceWorld-Windows-Console-MSVC-Development",
+			"displayName": "ResourceWorld: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "ResourceWorld" ]
+		},
+		{
+			"name": "ResourceWorld-Windows-Console-MSVC-Optimized",
+			"displayName": "ResourceWorld: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "ResourceWorld" ]
+		},
+		{
+			"name": "ResourceWorld-Windows-Console-MSVC-Release",
+			"displayName": "ResourceWorld: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "ResourceWorld" ]
+		},
+		{
+			"name": "ResourceWorld-Windows-Console-MSVC-Shipping",
+			"displayName": "ResourceWorld: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "ResourceWorld" ]
 		}
 	],
 	"buildPresets": [
 		{
-			"name": "Module-Win-Con-MSVC-Deb",
+			"name": "Module-Windows-Console-MSVC-Debug",
 			"displayName": "Module: Windows Console MSVC - Debug",
-			"configurePreset": "Module-Win-Con-MSVC-Deb"
+			"configurePreset": "Module-Windows-Console-MSVC-Debug"
 		},
 		{
-			"name": "Module-Win-Con-MSVC-Dev",
+			"name": "Module-Windows-Console-MSVC-Development",
 			"displayName": "Module: Windows Console MSVC - Development",
-			"configurePreset": "Module-Win-Con-MSVC-Dev"
+			"configurePreset": "Module-Windows-Console-MSVC-Development"
 		},
 		{
-			"name": "Module-Win-Con-MSVC-Opt",
+			"name": "Module-Windows-Console-MSVC-Optimized",
 			"displayName": "Module: Windows Console MSVC - Optimized",
-			"configurePreset": "Module-Win-Con-MSVC-Opt"
+			"configurePreset": "Module-Windows-Console-MSVC-Optimized"
 		},
 		{
-			"name": "Module-Win-Con-MSVC-Rel",
+			"name": "Module-Windows-Console-MSVC-Release",
 			"displayName": "Module: Windows Console MSVC - Release",
-			"configurePreset": "Module-Win-Con-MSVC-Rel"
+			"configurePreset": "Module-Windows-Console-MSVC-Release"
 		},
 		{
-			"name": "Module-Win-Con-MSVC-Shi",
+			"name": "Module-Windows-Console-MSVC-Shipping",
 			"displayName": "Module: Windows Console MSVC - Shipping",
-			"configurePreset": "Module-Win-Con-MSVC-Shi"
+			"configurePreset": "Module-Windows-Console-MSVC-Shipping"
 		},
 		{
-			"name": "Tickable-Win-Con-MSVC-Deb",
+			"name": "Tickable-Windows-Console-MSVC-Debug",
 			"displayName": "Tickable: Windows Console MSVC - Debug",
-			"configurePreset": "Tickable-Win-Con-MSVC-Deb"
+			"configurePreset": "Tickable-Windows-Console-MSVC-Debug"
 		},
 		{
-			"name": "Tickable-Win-Con-MSVC-Dev",
+			"name": "Tickable-Windows-Console-MSVC-Development",
 			"displayName": "Tickable: Windows Console MSVC - Development",
-			"configurePreset": "Tickable-Win-Con-MSVC-Dev"
+			"configurePreset": "Tickable-Windows-Console-MSVC-Development"
 		},
 		{
-			"name": "Tickable-Win-Con-MSVC-Opt",
+			"name": "Tickable-Windows-Console-MSVC-Optimized",
 			"displayName": "Tickable: Windows Console MSVC - Optimized",
-			"configurePreset": "Tickable-Win-Con-MSVC-Opt"
+			"configurePreset": "Tickable-Windows-Console-MSVC-Optimized"
 		},
 		{
-			"name": "Tickable-Win-Con-MSVC-Rel",
+			"name": "Tickable-Windows-Console-MSVC-Release",
 			"displayName": "Tickable: Windows Console MSVC - Release",
-			"configurePreset": "Tickable-Win-Con-MSVC-Rel"
+			"configurePreset": "Tickable-Windows-Console-MSVC-Release"
 		},
 		{
-			"name": "Tickable-Win-Con-MSVC-Shi",
+			"name": "Tickable-Windows-Console-MSVC-Shipping",
 			"displayName": "Tickable: Windows Console MSVC - Shipping",
-			"configurePreset": "Tickable-Win-Con-MSVC-Shi"
+			"configurePreset": "Tickable-Windows-Console-MSVC-Shipping"
 		},
 		{
-			"name": "Interface-Win-Con-MSVC-Deb",
+			"name": "Interface-Windows-Console-MSVC-Debug",
 			"displayName": "Interface: Windows Console MSVC - Debug",
-			"configurePreset": "Interface-Win-Con-MSVC-Deb"
+			"configurePreset": "Interface-Windows-Console-MSVC-Debug"
 		},
 		{
-			"name": "Interface-Win-Con-MSVC-Dev",
+			"name": "Interface-Windows-Console-MSVC-Development",
 			"displayName": "Interface: Windows Console MSVC - Development",
-			"configurePreset": "Interface-Win-Con-MSVC-Dev"
+			"configurePreset": "Interface-Windows-Console-MSVC-Development"
 		},
 		{
-			"name": "Interface-Win-Con-MSVC-Opt",
+			"name": "Interface-Windows-Console-MSVC-Optimized",
 			"displayName": "Interface: Windows Console MSVC - Optimized",
-			"configurePreset": "Interface-Win-Con-MSVC-Opt"
+			"configurePreset": "Interface-Windows-Console-MSVC-Optimized"
 		},
 		{
-			"name": "Interface-Win-Con-MSVC-Rel",
+			"name": "Interface-Windows-Console-MSVC-Release",
 			"displayName": "Interface: Windows Console MSVC - Release",
-			"configurePreset": "Interface-Win-Con-MSVC-Rel"
+			"configurePreset": "Interface-Windows-Console-MSVC-Release"
 		},
 		{
-			"name": "Interface-Win-Con-MSVC-Shi",
+			"name": "Interface-Windows-Console-MSVC-Shipping",
 			"displayName": "Interface: Windows Console MSVC - Shipping",
-			"configurePreset": "Interface-Win-Con-MSVC-Shi"
+			"configurePreset": "Interface-Windows-Console-MSVC-Shipping"
 		},
 		{
-			"name": "Buffer-Win-Con-MSVC-Deb",
+			"name": "Buffer-Windows-Console-MSVC-Debug",
 			"displayName": "Buffer: Windows Console MSVC - Debug",
-			"configurePreset": "Buffer-Win-Con-MSVC-Deb"
+			"configurePreset": "Buffer-Windows-Console-MSVC-Debug"
 		},
 		{
-			"name": "Buffer-Win-Con-MSVC-Dev",
+			"name": "Buffer-Windows-Console-MSVC-Development",
 			"displayName": "Buffer: Windows Console MSVC - Development",
-			"configurePreset": "Buffer-Win-Con-MSVC-Dev"
+			"configurePreset": "Buffer-Windows-Console-MSVC-Development"
 		},
 		{
-			"name": "Buffer-Win-Con-MSVC-Opt",
+			"name": "Buffer-Windows-Console-MSVC-Optimized",
 			"displayName": "Buffer: Windows Console MSVC - Optimized",
-			"configurePreset": "Buffer-Win-Con-MSVC-Opt"
+			"configurePreset": "Buffer-Windows-Console-MSVC-Optimized"
 		},
 		{
-			"name": "Buffer-Win-Con-MSVC-Rel",
+			"name": "Buffer-Windows-Console-MSVC-Release",
 			"displayName": "Buffer: Windows Console MSVC - Release",
-			"configurePreset": "Buffer-Win-Con-MSVC-Rel"
+			"configurePreset": "Buffer-Windows-Console-MSVC-Release"
 		},
 		{
-			"name": "Buffer-Win-Con-MSVC-Shi",
+			"name": "Buffer-Windows-Console-MSVC-Shipping",
 			"displayName": "Buffer: Windows Console MSVC - Shipping",
-			"configurePreset": "Buffer-Win-Con-MSVC-Shi"
+			"configurePreset": "Buffer-Windows-Console-MSVC-Shipping"
 		},
 		{
-			"name": "Thread-Win-Con-MSVC-Deb",
+			"name": "Thread-Windows-Console-MSVC-Debug",
 			"displayName": "Thread: Windows Console MSVC - Debug",
-			"configurePreset": "Thread-Win-Con-MSVC-Deb"
+			"configurePreset": "Thread-Windows-Console-MSVC-Debug"
 		},
 		{
-			"name": "Thread-Win-Con-MSVC-Dev",
+			"name": "Thread-Windows-Console-MSVC-Development",
 			"displayName": "Thread: Windows Console MSVC - Development",
-			"configurePreset": "Thread-Win-Con-MSVC-Dev"
+			"configurePreset": "Thread-Windows-Console-MSVC-Development"
 		},
 		{
-			"name": "Thread-Win-Con-MSVC-Opt",
+			"name": "Thread-Windows-Console-MSVC-Optimized",
 			"displayName": "Thread: Windows Console MSVC - Optimized",
-			"configurePreset": "Thread-Win-Con-MSVC-Opt"
+			"configurePreset": "Thread-Windows-Console-MSVC-Optimized"
 		},
 		{
-			"name": "Thread-Win-Con-MSVC-Rel",
+			"name": "Thread-Windows-Console-MSVC-Release",
 			"displayName": "Thread: Windows Console MSVC - Release",
-			"configurePreset": "Thread-Win-Con-MSVC-Rel"
+			"configurePreset": "Thread-Windows-Console-MSVC-Release"
 		},
 		{
-			"name": "Thread-Win-Con-MSVC-Shi",
+			"name": "Thread-Windows-Console-MSVC-Shipping",
 			"displayName": "Thread: Windows Console MSVC - Shipping",
-			"configurePreset": "Thread-Win-Con-MSVC-Shi"
+			"configurePreset": "Thread-Windows-Console-MSVC-Shipping"
 		},
 		{
-			"name": "Flow-Win-Con-MSVC-Deb",
+			"name": "Flow-Windows-Console-MSVC-Debug",
 			"displayName": "Flow: Windows Console MSVC - Debug",
-			"configurePreset": "Flow-Win-Con-MSVC-Deb"
+			"configurePreset": "Flow-Windows-Console-MSVC-Debug"
 		},
 		{
-			"name": "Flow-Win-Con-MSVC-Dev",
+			"name": "Flow-Windows-Console-MSVC-Development",
 			"displayName": "Flow: Windows Console MSVC - Development",
-			"configurePreset": "Flow-Win-Con-MSVC-Dev"
+			"configurePreset": "Flow-Windows-Console-MSVC-Development"
 		},
 		{
-			"name": "Flow-Win-Con-MSVC-Opt",
+			"name": "Flow-Windows-Console-MSVC-Optimized",
 			"displayName": "Flow: Windows Console MSVC - Optimized",
-			"configurePreset": "Flow-Win-Con-MSVC-Opt"
+			"configurePreset": "Flow-Windows-Console-MSVC-Optimized"
 		},
 		{
-			"name": "Flow-Win-Con-MSVC-Rel",
+			"name": "Flow-Windows-Console-MSVC-Release",
 			"displayName": "Flow: Windows Console MSVC - Release",
-			"configurePreset": "Flow-Win-Con-MSVC-Rel"
+			"configurePreset": "Flow-Windows-Console-MSVC-Release"
 		},
 		{
-			"name": "Flow-Win-Con-MSVC-Shi",
+			"name": "Flow-Windows-Console-MSVC-Shipping",
 			"displayName": "Flow: Windows Console MSVC - Shipping",
-			"configurePreset": "Flow-Win-Con-MSVC-Shi"
+			"configurePreset": "Flow-Windows-Console-MSVC-Shipping"
 		},
 		{
-			"name": "Log-Win-Con-MSVC-Deb",
+			"name": "Log-Windows-Console-MSVC-Debug",
 			"displayName": "Log: Windows Console MSVC - Debug",
-			"configurePreset": "Log-Win-Con-MSVC-Deb"
+			"configurePreset": "Log-Windows-Console-MSVC-Debug"
 		},
 		{
-			"name": "Log-Win-Con-MSVC-Dev",
+			"name": "Log-Windows-Console-MSVC-Development",
 			"displayName": "Log: Windows Console MSVC - Development",
-			"configurePreset": "Log-Win-Con-MSVC-Dev"
+			"configurePreset": "Log-Windows-Console-MSVC-Development"
 		},
 		{
-			"name": "Log-Win-Con-MSVC-Opt",
+			"name": "Log-Windows-Console-MSVC-Optimized",
 			"displayName": "Log: Windows Console MSVC - Optimized",
-			"configurePreset": "Log-Win-Con-MSVC-Opt"
+			"configurePreset": "Log-Windows-Console-MSVC-Optimized"
 		},
 		{
-			"name": "Log-Win-Con-MSVC-Rel",
+			"name": "Log-Windows-Console-MSVC-Release",
 			"displayName": "Log: Windows Console MSVC - Release",
-			"configurePreset": "Log-Win-Con-MSVC-Rel"
+			"configurePreset": "Log-Windows-Console-MSVC-Release"
 		},
 		{
-			"name": "Log-Win-Con-MSVC-Shi",
+			"name": "Log-Windows-Console-MSVC-Shipping",
 			"displayName": "Log: Windows Console MSVC - Shipping",
-			"configurePreset": "Log-Win-Con-MSVC-Shi"
+			"configurePreset": "Log-Windows-Console-MSVC-Shipping"
 		},
 		{
-			"name": "Logger-Win-Con-MSVC-Deb",
+			"name": "Logger-Windows-Console-MSVC-Debug",
 			"displayName": "Logger: Windows Console MSVC - Debug",
-			"configurePreset": "Logger-Win-Con-MSVC-Deb"
+			"configurePreset": "Logger-Windows-Console-MSVC-Debug"
 		},
 		{
-			"name": "Logger-Win-Con-MSVC-Dev",
+			"name": "Logger-Windows-Console-MSVC-Development",
 			"displayName": "Logger: Windows Console MSVC - Development",
-			"configurePreset": "Logger-Win-Con-MSVC-Dev"
+			"configurePreset": "Logger-Windows-Console-MSVC-Development"
 		},
 		{
-			"name": "Logger-Win-Con-MSVC-Opt",
+			"name": "Logger-Windows-Console-MSVC-Optimized",
 			"displayName": "Logger: Windows Console MSVC - Optimized",
-			"configurePreset": "Logger-Win-Con-MSVC-Opt"
+			"configurePreset": "Logger-Windows-Console-MSVC-Optimized"
 		},
 		{
-			"name": "Logger-Win-Con-MSVC-Rel",
+			"name": "Logger-Windows-Console-MSVC-Release",
 			"displayName": "Logger: Windows Console MSVC - Release",
-			"configurePreset": "Logger-Win-Con-MSVC-Rel"
+			"configurePreset": "Logger-Windows-Console-MSVC-Release"
 		},
 		{
-			"name": "Logger-Win-Con-MSVC-Shi",
+			"name": "Logger-Windows-Console-MSVC-Shipping",
 			"displayName": "Logger: Windows Console MSVC - Shipping",
-			"configurePreset": "Logger-Win-Con-MSVC-Shi"
+			"configurePreset": "Logger-Windows-Console-MSVC-Shipping"
 		},
 		{
-			"name": "Job-Win-Con-MSVC-Deb",
+			"name": "Job-Windows-Console-MSVC-Debug",
 			"displayName": "Job: Windows Console MSVC - Debug",
-			"configurePreset": "Job-Win-Con-MSVC-Deb"
+			"configurePreset": "Job-Windows-Console-MSVC-Debug"
 		},
 		{
-			"name": "Job-Win-Con-MSVC-Dev",
+			"name": "Job-Windows-Console-MSVC-Development",
 			"displayName": "Job: Windows Console MSVC - Development",
-			"configurePreset": "Job-Win-Con-MSVC-Dev"
+			"configurePreset": "Job-Windows-Console-MSVC-Development"
 		},
 		{
-			"name": "Job-Win-Con-MSVC-Opt",
+			"name": "Job-Windows-Console-MSVC-Optimized",
 			"displayName": "Job: Windows Console MSVC - Optimized",
-			"configurePreset": "Job-Win-Con-MSVC-Opt"
+			"configurePreset": "Job-Windows-Console-MSVC-Optimized"
 		},
 		{
-			"name": "Job-Win-Con-MSVC-Rel",
+			"name": "Job-Windows-Console-MSVC-Release",
 			"displayName": "Job: Windows Console MSVC - Release",
-			"configurePreset": "Job-Win-Con-MSVC-Rel"
+			"configurePreset": "Job-Windows-Console-MSVC-Release"
 		},
 		{
-			"name": "Job-Win-Con-MSVC-Shi",
+			"name": "Job-Windows-Console-MSVC-Shipping",
 			"displayName": "Job: Windows Console MSVC - Shipping",
-			"configurePreset": "Job-Win-Con-MSVC-Shi"
+			"configurePreset": "Job-Windows-Console-MSVC-Shipping"
 		},
 		{
-			"name": "FileRead-Win-Con-MSVC-Deb",
+			"name": "FileRead-Windows-Console-MSVC-Debug",
 			"displayName": "FileRead: Windows Console MSVC - Debug",
-			"configurePreset": "FileRead-Win-Con-MSVC-Deb"
+			"configurePreset": "FileRead-Windows-Console-MSVC-Debug"
 		},
 		{
-			"name": "FileRead-Win-Con-MSVC-Dev",
+			"name": "FileRead-Windows-Console-MSVC-Development",
 			"displayName": "FileRead: Windows Console MSVC - Development",
-			"configurePreset": "FileRead-Win-Con-MSVC-Dev"
+			"configurePreset": "FileRead-Windows-Console-MSVC-Development"
 		},
 		{
-			"name": "FileRead-Win-Con-MSVC-Opt",
+			"name": "FileRead-Windows-Console-MSVC-Optimized",
 			"displayName": "FileRead: Windows Console MSVC - Optimized",
-			"configurePreset": "FileRead-Win-Con-MSVC-Opt"
+			"configurePreset": "FileRead-Windows-Console-MSVC-Optimized"
 		},
 		{
-			"name": "FileRead-Win-Con-MSVC-Rel",
+			"name": "FileRead-Windows-Console-MSVC-Release",
 			"displayName": "FileRead: Windows Console MSVC - Release",
-			"configurePreset": "FileRead-Win-Con-MSVC-Rel"
+			"configurePreset": "FileRead-Windows-Console-MSVC-Release"
 		},
 		{
-			"name": "FileRead-Win-Con-MSVC-Shi",
+			"name": "FileRead-Windows-Console-MSVC-Shipping",
 			"displayName": "FileRead: Windows Console MSVC - Shipping",
-			"configurePreset": "FileRead-Win-Con-MSVC-Shi"
+			"configurePreset": "FileRead-Windows-Console-MSVC-Shipping"
 		},
 		{
-			"name": "FileWrite-Win-Con-MSVC-Deb",
+			"name": "FileWrite-Windows-Console-MSVC-Debug",
 			"displayName": "FileWrite: Windows Console MSVC - Debug",
-			"configurePreset": "FileWrite-Win-Con-MSVC-Deb"
+			"configurePreset": "FileWrite-Windows-Console-MSVC-Debug"
 		},
 		{
-			"name": "FileWrite-Win-Con-MSVC-Dev",
+			"name": "FileWrite-Windows-Console-MSVC-Development",
 			"displayName": "FileWrite: Windows Console MSVC - Development",
-			"configurePreset": "FileWrite-Win-Con-MSVC-Dev"
+			"configurePreset": "FileWrite-Windows-Console-MSVC-Development"
 		},
 		{
-			"name": "FileWrite-Win-Con-MSVC-Opt",
+			"name": "FileWrite-Windows-Console-MSVC-Optimized",
 			"displayName": "FileWrite: Windows Console MSVC - Optimized",
-			"configurePreset": "FileWrite-Win-Con-MSVC-Opt"
+			"configurePreset": "FileWrite-Windows-Console-MSVC-Optimized"
 		},
 		{
-			"name": "FileWrite-Win-Con-MSVC-Rel",
+			"name": "FileWrite-Windows-Console-MSVC-Release",
 			"displayName": "FileWrite: Windows Console MSVC - Release",
-			"configurePreset": "FileWrite-Win-Con-MSVC-Rel"
+			"configurePreset": "FileWrite-Windows-Console-MSVC-Release"
 		},
 		{
-			"name": "FileWrite-Win-Con-MSVC-Shi",
+			"name": "FileWrite-Windows-Console-MSVC-Shipping",
 			"displayName": "FileWrite: Windows Console MSVC - Shipping",
-			"configurePreset": "FileWrite-Win-Con-MSVC-Shi"
+			"configurePreset": "FileWrite-Windows-Console-MSVC-Shipping"
 		},
 		{
-			"name": "ResourceMain-Win-Con-MSVC-Deb",
+			"name": "ResourceMain-Windows-Console-MSVC-Debug",
 			"displayName": "ResourceMain: Windows Console MSVC - Debug",
-			"configurePreset": "ResourceMain-Win-Con-MSVC-Deb"
+			"configurePreset": "ResourceMain-Windows-Console-MSVC-Debug"
 		},
 		{
-			"name": "ResourceMain-Win-Con-MSVC-Dev",
+			"name": "ResourceMain-Windows-Console-MSVC-Development",
 			"displayName": "ResourceMain: Windows Console MSVC - Development",
-			"configurePreset": "ResourceMain-Win-Con-MSVC-Dev"
+			"configurePreset": "ResourceMain-Windows-Console-MSVC-Development"
 		},
 		{
-			"name": "ResourceMain-Win-Con-MSVC-Opt",
+			"name": "ResourceMain-Windows-Console-MSVC-Optimized",
 			"displayName": "ResourceMain: Windows Console MSVC - Optimized",
-			"configurePreset": "ResourceMain-Win-Con-MSVC-Opt"
+			"configurePreset": "ResourceMain-Windows-Console-MSVC-Optimized"
 		},
 		{
-			"name": "ResourceMain-Win-Con-MSVC-Rel",
+			"name": "ResourceMain-Windows-Console-MSVC-Release",
 			"displayName": "ResourceMain: Windows Console MSVC - Release",
-			"configurePreset": "ResourceMain-Win-Con-MSVC-Rel"
+			"configurePreset": "ResourceMain-Windows-Console-MSVC-Release"
 		},
 		{
-			"name": "ResourceMain-Win-Con-MSVC-Shi",
+			"name": "ResourceMain-Windows-Console-MSVC-Shipping",
 			"displayName": "ResourceMain: Windows Console MSVC - Shipping",
-			"configurePreset": "ResourceMain-Win-Con-MSVC-Shi"
+			"configurePreset": "ResourceMain-Windows-Console-MSVC-Shipping"
+		},
+		{
+			"name": "ResourceWorld-Windows-Console-MSVC-Debug",
+			"displayName": "ResourceWorld: Windows Console MSVC - Debug",
+			"configurePreset": "ResourceWorld-Windows-Console-MSVC-Debug"
+		},
+		{
+			"name": "ResourceWorld-Windows-Console-MSVC-Development",
+			"displayName": "ResourceWorld: Windows Console MSVC - Development",
+			"configurePreset": "ResourceWorld-Windows-Console-MSVC-Development"
+		},
+		{
+			"name": "ResourceWorld-Windows-Console-MSVC-Optimized",
+			"displayName": "ResourceWorld: Windows Console MSVC - Optimized",
+			"configurePreset": "ResourceWorld-Windows-Console-MSVC-Optimized"
+		},
+		{
+			"name": "ResourceWorld-Windows-Console-MSVC-Release",
+			"displayName": "ResourceWorld: Windows Console MSVC - Release",
+			"configurePreset": "ResourceWorld-Windows-Console-MSVC-Release"
+		},
+		{
+			"name": "ResourceWorld-Windows-Console-MSVC-Shipping",
+			"displayName": "ResourceWorld: Windows Console MSVC - Shipping",
+			"configurePreset": "ResourceWorld-Windows-Console-MSVC-Shipping"
 		}
 	]
 }

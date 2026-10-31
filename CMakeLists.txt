@@ -30,7 +30,7 @@ FetchContent_MakeAvailable(PonyEngine)
 # Building Pony Engine Tools for the host platform
 ExternalProject_Add(PonyEngineTools
 	SOURCE_DIR "${PonyEngine_SOURCE_DIR}"
-	BINARY_DIR "${CMAKE_BINARY_DIR}/PonyEngineTools"
+	BINARY_DIR "${CMAKE_BINARY_DIR}/Tools"
 	CMAKE_ARGS
 		-G Ninja
 		-DCMAKE_BUILD_TYPE=Release
