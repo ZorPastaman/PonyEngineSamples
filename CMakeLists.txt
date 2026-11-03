@@ -28,6 +28,11 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(PonyEngine)
 
 # Building Pony Engine Tools for the host platform
+if(CMAKE_HOST_SYSTEM_NAME STREQUAL "Windows")
+	set(TOOLS_TOOLCHAIN "${CMAKE_CURRENT_LIST_DIR}/CMake/Toolchains/Windows-MSVC.cmake")
+else()
+	message(FATAL_ERROR "Unsupported host platform")
+endif()
 ExternalProject_Add(PonyEngineTools
 	SOURCE_DIR "${PonyEngine_SOURCE_DIR}"
 	BINARY_DIR "${CMAKE_BINARY_DIR}/Tools"
@@ -36,6 +41,7 @@ ExternalProject_Add(PonyEngineTools
 		-DCMAKE_BUILD_TYPE=Release
 		-DCMAKE_INSTALL_PREFIX=${PONY_TOOLS_INSTALL_DIR}
 		-DPONY_BUILD_MODE=Tools
+		-DCMAKE_TOOLCHAIN_FILE=${TOOLS_TOOLCHAIN}
 	INSTALL_DIR "${PONY_TOOLS_INSTALL_DIR}"
 )
 

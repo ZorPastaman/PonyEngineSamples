@@ -472,6 +472,38 @@
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Flow" ]
 		},
 		{
+			"name": "Time",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "Time/Time"
+			}
+		},
+		{
+			"name": "Time-Windows-Console-MSVC-Debug",
+			"displayName": "Time: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "Time" ]
+		},
+		{
+			"name": "Time-Windows-Console-MSVC-Development",
+			"displayName": "Time: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "Time" ]
+		},
+		{
+			"name": "Time-Windows-Console-MSVC-Optimized",
+			"displayName": "Time: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "Time" ]
+		},
+		{
+			"name": "Time-Windows-Console-MSVC-Release",
+			"displayName": "Time: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "Time" ]
+		},
+		{
+			"name": "Time-Windows-Console-MSVC-Shipping",
+			"displayName": "Time: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "Time" ]
+		},
+		{
 			"name": "Log",
 			"hidden": true,
 			"cacheVariables": {
@@ -846,6 +878,31 @@
 			"name": "Flow-Windows-Console-MSVC-Shipping",
 			"displayName": "Flow: Windows Console MSVC - Shipping",
 			"configurePreset": "Flow-Windows-Console-MSVC-Shipping"
+		},
+		{
+			"name": "Time-Windows-Console-MSVC-Debug",
+			"displayName": "Time: Windows Console MSVC - Debug",
+			"configurePreset": "Time-Windows-Console-MSVC-Debug"
+		},
+		{
+			"name": "Time-Windows-Console-MSVC-Development",
+			"displayName": "Time: Windows Console MSVC - Development",
+			"configurePreset": "Time-Windows-Console-MSVC-Development"
+		},
+		{
+			"name": "Time-Windows-Console-MSVC-Optimized",
+			"displayName": "Time: Windows Console MSVC - Optimized",
+			"configurePreset": "Time-Windows-Console-MSVC-Optimized"
+		},
+		{
+			"name": "Time-Windows-Console-MSVC-Release",
+			"displayName": "Time: Windows Console MSVC - Release",
+			"configurePreset": "Time-Windows-Console-MSVC-Release"
+		},
+		{
+			"name": "Time-Windows-Console-MSVC-Shipping",
+			"displayName": "Time: Windows Console MSVC - Shipping",
+			"configurePreset": "Time-Windows-Console-MSVC-Shipping"
 		},
 		{
 			"name": "Log-Windows-Console-MSVC-Debug",

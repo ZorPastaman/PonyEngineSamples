@@ -4,9 +4,18 @@ Samples of projects on Pony Engine https://github.com/ZorPastaman/PonyEngine
 Main branch always uses develop branch of the engine. Switch to a release branch to use a specific version of the engine.
 
 All the samples load the engine automatically via CMake fetch content.
-Prerequisites for the samples are the same as for the engine.
-
 Every sample is a CMake preset.
+
+## Prerequisites
+
+- CMake 3.31;
+- Ninja generator;
+- C\++ 23 compiler;
+- Platform SDKs.
+
+### Supported host platforms:
+
+- Windows. Compiler: MSVC.
 
 ## How to use
 
@@ -109,6 +118,7 @@ It applies flags to built targets, creates DLL groups if requested and links the
 |:---------------------------|:---------------------------------------------------------------------------------------|
 | [Basic](Basic)             | Shows very basic usage of the engine. It's a great starting point to learn the engine. |
 | [Application](Application) | Shows how to use different features of the application module.                         |
+| [Time](Time)               | Shows how to use the time module.                                                      |
 | [Log](Log)                 | Shows how to use the log module.                                                       |
 | [Job](Job)                 | Shows how to use the job module.                                                       |
 | [File](File)               | Shows how to use the file module.                                                      |
