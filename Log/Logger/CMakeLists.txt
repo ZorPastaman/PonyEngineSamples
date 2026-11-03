@@ -1,6 +1,5 @@
 add_library(Sample STATIC)
 
-# Set includes and sources.
 target_include_directories(Sample PUBLIC
 	"Include/Public"
 )

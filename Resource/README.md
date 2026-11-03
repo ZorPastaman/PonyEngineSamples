@@ -34,7 +34,7 @@ Read the engine docs including the sections about engine formats for more info.
 
 ## Samples
 
-| Sample         | Description                                                                        |
-|:---------------|:-----------------------------------------------------------------------------------|
-| [Main](Main)   | Shows how to make a resource out of an asset at built time and load it at runtime. |
-| [World](World) | Shows how to make a world definition resource and load it as a world at runtime.   |
+| Sample                 | Description                                                                        |
+|:-----------------------|:-----------------------------------------------------------------------------------|
+| [ResourceMain](Main)   | Shows how to make a resource out of an asset at built time and load it at runtime. |
+| [ResourceWorld](World) | Shows how to make a world definition resource and load it as a world at runtime.   |

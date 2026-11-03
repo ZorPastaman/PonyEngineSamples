@@ -600,6 +600,38 @@
 			"inherits": [ "Windows-Console-MSVC-Shipping", "Job" ]
 		},
 		{
+			"name": "WorldComponent",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "World/Component"
+			}
+		},
+		{
+			"name": "WorldComponent-Windows-Console-MSVC-Debug",
+			"displayName": "WorldComponent: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "WorldComponent" ]
+		},
+		{
+			"name": "WorldComponent-Windows-Console-MSVC-Development",
+			"displayName": "WorldComponent: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "WorldComponent" ]
+		},
+		{
+			"name": "WorldComponent-Windows-Console-MSVC-Optimized",
+			"displayName": "WorldComponent: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "WorldComponent" ]
+		},
+		{
+			"name": "WorldComponent-Windows-Console-MSVC-Release",
+			"displayName": "WorldComponent: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "WorldComponent" ]
+		},
+		{
+			"name": "WorldComponent-Windows-Console-MSVC-Shipping",
+			"displayName": "WorldComponent: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "WorldComponent" ]
+		},
+		{
 			"name": "FileRead",
 			"hidden": true,
 			"cacheVariables": {
@@ -978,6 +1010,31 @@
 			"name": "Job-Windows-Console-MSVC-Shipping",
 			"displayName": "Job: Windows Console MSVC - Shipping",
 			"configurePreset": "Job-Windows-Console-MSVC-Shipping"
+		},
+		{
+			"name": "WorldComponent-Windows-Console-MSVC-Debug",
+			"displayName": "WorldComponent: Windows Console MSVC - Debug",
+			"configurePreset": "WorldComponent-Windows-Console-MSVC-Debug"
+		},
+		{
+			"name": "WorldComponent-Windows-Console-MSVC-Development",
+			"displayName": "WorldComponent: Windows Console MSVC - Development",
+			"configurePreset": "WorldComponent-Windows-Console-MSVC-Development"
+		},
+		{
+			"name": "WorldComponent-Windows-Console-MSVC-Optimized",
+			"displayName": "WorldComponent: Windows Console MSVC - Optimized",
+			"configurePreset": "WorldComponent-Windows-Console-MSVC-Optimized"
+		},
+		{
+			"name": "WorldComponent-Windows-Console-MSVC-Release",
+			"displayName": "WorldComponent: Windows Console MSVC - Release",
+			"configurePreset": "WorldComponent-Windows-Console-MSVC-Release"
+		},
+		{
+			"name": "WorldComponent-Windows-Console-MSVC-Shipping",
+			"displayName": "WorldComponent: Windows Console MSVC - Shipping",
+			"configurePreset": "WorldComponent-Windows-Console-MSVC-Shipping"
 		},
 		{
 			"name": "FileRead-Windows-Console-MSVC-Debug",

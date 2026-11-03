@@ -121,6 +121,7 @@ It applies flags to built targets, creates DLL groups if requested and links the
 | [Time](Time)               | Shows how to use the time module.                                                      |
 | [Log](Log)                 | Shows how to use the log module.                                                       |
 | [Job](Job)                 | Shows how to use the job module.                                                       |
+| [World](World)             | Shows how to use the world module.                                                     |
 | [File](File)               | Shows how to use the file module.                                                      |
 | [Resource](Resource)       | Shows how to use the resource module.                                                  |
 
