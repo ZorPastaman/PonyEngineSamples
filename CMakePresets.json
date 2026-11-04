@@ -638,6 +638,38 @@
 			"inherits": [ "Windows-Console-MSVC-Shipping", "WorldComponent" ]
 		},
 		{
+			"name": "WorldObject",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "World/Object"
+			}
+		},
+		{
+			"name": "WorldObject-Windows-Console-MSVC-Debug",
+			"displayName": "WorldObject: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "WorldObject" ]
+		},
+		{
+			"name": "WorldObject-Windows-Console-MSVC-Development",
+			"displayName": "WorldObject: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "WorldObject" ]
+		},
+		{
+			"name": "WorldObject-Windows-Console-MSVC-Optimized",
+			"displayName": "WorldObject: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "WorldObject" ]
+		},
+		{
+			"name": "WorldObject-Windows-Console-MSVC-Release",
+			"displayName": "WorldObject: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "WorldObject" ]
+		},
+		{
+			"name": "WorldObject-Windows-Console-MSVC-Shipping",
+			"displayName": "WorldObject: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "WorldObject" ]
+		},
+		{
 			"name": "FileRead",
 			"hidden": true,
 			"cacheVariables": {
@@ -1041,6 +1073,31 @@
 			"name": "WorldComponent-Windows-Console-MSVC-Shipping",
 			"displayName": "WorldComponent: Windows Console MSVC - Shipping",
 			"configurePreset": "WorldComponent-Windows-Console-MSVC-Shipping"
+		},
+		{
+			"name": "WorldObject-Windows-Console-MSVC-Debug",
+			"displayName": "WorldObject: Windows Console MSVC - Debug",
+			"configurePreset": "WorldObject-Windows-Console-MSVC-Debug"
+		},
+		{
+			"name": "WorldObject-Windows-Console-MSVC-Development",
+			"displayName": "WorldObject: Windows Console MSVC - Development",
+			"configurePreset": "WorldObject-Windows-Console-MSVC-Development"
+		},
+		{
+			"name": "WorldObject-Windows-Console-MSVC-Optimized",
+			"displayName": "WorldObject: Windows Console MSVC - Optimized",
+			"configurePreset": "WorldObject-Windows-Console-MSVC-Optimized"
+		},
+		{
+			"name": "WorldObject-Windows-Console-MSVC-Release",
+			"displayName": "WorldObject: Windows Console MSVC - Release",
+			"configurePreset": "WorldObject-Windows-Console-MSVC-Release"
+		},
+		{
+			"name": "WorldObject-Windows-Console-MSVC-Shipping",
+			"displayName": "WorldObject: Windows Console MSVC - Shipping",
+			"configurePreset": "WorldObject-Windows-Console-MSVC-Shipping"
 		},
 		{
 			"name": "FileRead-Windows-Console-MSVC-Debug",
