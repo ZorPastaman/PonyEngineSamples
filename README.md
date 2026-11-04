@@ -13,10 +13,6 @@ Every sample is a CMake preset.
 - C\++ 23 compiler;
 - Platform SDKs.
 
-### Supported host platforms:
-
-- Windows. Compiler: MSVC.
-
 ## How to use
 
 1. Download the repo.
@@ -91,9 +87,9 @@ If you use Visual Studio, it will do all the required preparations automatically
 
 ## How it works
 
-The root [CMakeLists.txt](CMakeLists.txt) runs builds this way.
+The root [CMakeLists.txt](CMakeLists.txt) and [Presets](CMakePresets.json) run builds this way.
 
-First, it sets needed global params. The tricky part here is `import std;` support which was added in C\++ 23 and used by Pony Engine.
+First, the global params are set. The tricky part here is `import std;` which was added in C\++ 23 and used by Pony Engine.
 `std` module must be built first. For that `set(CMAKE_CXX_MODULE_STD ON)` must be set before a first project. But it's still experimental in CMake.
 To activate it you must use `set(CMAKE_EXPERIMENTAL_CXX_IMPORT_STD "0e5b6991-d74f-4b3d-a41c-cf096e0b2508")`. The actual uuid depends on your CMake version.
 To get a correct value, go to `https://github.com/Kitware/CMake/blob/<CMakeVersion>/Help/dev/experimental.rst`. Don't forget to change the version in the link for your CMake version.
@@ -105,6 +101,8 @@ To support that, the toolchains provide functions to clear flags (it's called af
 
 Pony Engine provides some tools that must be built for a host platform. Mainly, they are used to build game resources.
 But because CMake doesn't allow to mix builds for two different target platforms, the tools are built via ExternalProject inside a sample build.
+The tools toolchains are set in the presets for every host platform. Find variables like this `PONY_TOOLS_TOOLCHAIN_<PLATFORM>`.
+If a platform toolchain isn't set, the toolchain isn't used.
 
 All the engine modules that are supported by a target platform are turned on and built but sample targets have dependecies only on those engine modules that they actually use.
 
