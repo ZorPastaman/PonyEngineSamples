@@ -12,3 +12,4 @@ Also, a world may contain objects that are referenced from components with speci
 |:----------------------------|:---------------------------------------------------------------|
 | [WorldComponent](Component) | Shows how to make a component for the world module and use it. |
 | [WorldObject](Object)       | Shows how to make an object for the world module and use it.   |
+| [WorldQuery](Query)         | Shows how to use component queries.                            |

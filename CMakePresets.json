@@ -670,6 +670,38 @@
 			"inherits": [ "Windows-Console-MSVC-Shipping", "WorldObject" ]
 		},
 		{
+			"name": "WorldQuery",
+			"hidden": true,
+			"cacheVariables": {
+				"PONY_SAMPLE_PATH": "World/Query"
+			}
+		},
+		{
+			"name": "WorldQuery-Windows-Console-MSVC-Debug",
+			"displayName": "WorldQuery: Windows Console MSVC - Debug",
+			"inherits": [ "Windows-Console-MSVC-Debug", "WorldQuery" ]
+		},
+		{
+			"name": "WorldQuery-Windows-Console-MSVC-Development",
+			"displayName": "WorldQuery: Windows Console MSVC - Development",
+			"inherits": [ "Windows-Console-MSVC-Development", "WorldQuery" ]
+		},
+		{
+			"name": "WorldQuery-Windows-Console-MSVC-Optimized",
+			"displayName": "WorldQuery: Windows Console MSVC - Optimized",
+			"inherits": [ "Windows-Console-MSVC-Optimized", "WorldQuery" ]
+		},
+		{
+			"name": "WorldQuery-Windows-Console-MSVC-Release",
+			"displayName": "WorldQuery: Windows Console MSVC - Release",
+			"inherits": [ "Windows-Console-MSVC-Release", "WorldQuery" ]
+		},
+		{
+			"name": "WorldQuery-Windows-Console-MSVC-Shipping",
+			"displayName": "WorldQuery: Windows Console MSVC - Shipping",
+			"inherits": [ "Windows-Console-MSVC-Shipping", "WorldQuery" ]
+		},
+		{
 			"name": "FileRead",
 			"hidden": true,
 			"cacheVariables": {
@@ -1098,6 +1130,31 @@
 			"name": "WorldObject-Windows-Console-MSVC-Shipping",
 			"displayName": "WorldObject: Windows Console MSVC - Shipping",
 			"configurePreset": "WorldObject-Windows-Console-MSVC-Shipping"
+		},
+		{
+			"name": "WorldQuery-Windows-Console-MSVC-Debug",
+			"displayName": "WorldQuery: Windows Console MSVC - Debug",
+			"configurePreset": "WorldQuery-Windows-Console-MSVC-Debug"
+		},
+		{
+			"name": "WorldQuery-Windows-Console-MSVC-Development",
+			"displayName": "WorldQuery: Windows Console MSVC - Development",
+			"configurePreset": "WorldQuery-Windows-Console-MSVC-Development"
+		},
+		{
+			"name": "WorldQuery-Windows-Console-MSVC-Optimized",
+			"displayName": "WorldQuery: Windows Console MSVC - Optimized",
+			"configurePreset": "WorldQuery-Windows-Console-MSVC-Optimized"
+		},
+		{
+			"name": "WorldQuery-Windows-Console-MSVC-Release",
+			"displayName": "WorldQuery: Windows Console MSVC - Release",
+			"configurePreset": "WorldQuery-Windows-Console-MSVC-Release"
+		},
+		{
+			"name": "WorldQuery-Windows-Console-MSVC-Shipping",
+			"displayName": "WorldQuery: Windows Console MSVC - Shipping",
+			"configurePreset": "WorldQuery-Windows-Console-MSVC-Shipping"
 		},
 		{
 			"name": "FileRead-Windows-Console-MSVC-Debug",
